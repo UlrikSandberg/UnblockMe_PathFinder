@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns:b="clr-namespace:UnblockMe" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:UnblockMe" x:Class="UnblockMe.MainPage">
+    <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+        <Button Text="UnblockMe Solver" Clicked="Handle_Clicked"/>
+        <Button Text="PathFinder" Clicked="Handle_Clicked_1"/>
+    </StackLayout>
+</ContentPage>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="UnblockMe.Board">
+    <ContentPage.Content>
+        <Grid>
+            <StackLayout>
+                <StackLayout HorizontalOptions="Center" VerticalOptions="Start">
+                    <Button Text="Solve" Clicked="Handle_Clicked" HorizontalOptions="Center" VerticalOptions="Start" />
+                    <ActivityIndicator x:Name="Activity" IsVisible="false" IsRunning="false" HorizontalOptions="Center" Color="Black" />
+                    <Label x:Name="Moves" HorizontalOptions="Center" VerticalOptions="Center" />
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                    <Button x:Name="Small" Text="Small" Clicked="Handle_ClickedSmall">
+                    </Button>
+                    <Button x:Name="Big" Text="Big" Clicked="Handle_ClickedBig">
+                    </Button>
+                </StackLayout>
+            </StackLayout>
+            <RelativeLayout HorizontalOptions="Center" VerticalOptions="Center">
+                <Grid ColumnSpacing="0" RowSpacing="0" RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Factor=1, Property=Width}" RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Factor=1, Property=Width}" BackgroundColor="Gray" x:Name="UnblockMeContainer">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*" />
+                        <ColumnDefinition Width="1*" />
+                        <ColumnDefinition Width="1*" />
+                        <ColumnDefinition Width="1*" />
+                        <ColumnDefinition Width="1*" />
+                        <ColumnDefinition Width="1*" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="1*" />
+                        <RowDefinition Height="1*" />
+                        <RowDefinition Height="1*" />
+                        <RowDefinition Height="1*" />
+                        <RowDefinition Height="1*" />
+                        <RowDefinition Height="1*" />
+                    </Grid.RowDefinitions>
+                </Grid>
+            </RelativeLayout>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="End">
+                <Button Text="Easy" Clicked="Handle_ClickedEasy">
+                </Button>
+                <Button Text="Medium" Clicked="Handle_ClickedMedium">
+                </Button>
+                <Button Text="Expert" Clicked="Handle_ClickedExpert">
+                </Button>
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

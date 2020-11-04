@@ -1,0 +1,16 @@
+/Users/ulriksandberg/Projects/UnblockMe/UnblockMe/obj/Debug/netstandard2.0/UnblockMe.csprojAssemblyReference.cache
+/Users/ulriksandberg/Projects/UnblockMe/UnblockMe/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/ulriksandberg/Projects/UnblockMe/UnblockMe/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/ulriksandberg/Projects/UnblockMe/UnblockMe/obj/Debug/netstandard2.0/UnblockMe.csproj.CoreCompileInputs.cache
+/Users/ulriksandberg/Projects/UnblockMe/UnblockMe/obj/Debug/netstandard2.0/UnblockMe.AssemblyInfoInputs.cache
+/Users/ulriksandberg/Projects/UnblockMe/UnblockMe/obj/Debug/netstandard2.0/UnblockMe.AssemblyInfo.cs
+/Users/ulriksandberg/Projects/UnblockMe/UnblockMe/obj/Debug/netstandard2.0/UnblockMe.dll
+/Users/ulriksandberg/Projects/UnblockMe/UnblockMe/obj/Debug/netstandard2.0/UnblockMe.pdb
+/Users/ulriksandberg/Projects/UnblockMe/UnblockMe/bin/Debug/netstandard2.0/UnblockMe.deps.json
+/Users/ulriksandberg/Projects/UnblockMe/UnblockMe/bin/Debug/netstandard2.0/UnblockMe.dll
+/Users/ulriksandberg/Projects/UnblockMe/UnblockMe/bin/Debug/netstandard2.0/UnblockMe.pdb
+/Users/ulriksandberg/Projects/UnblockMe/UnblockMe/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/ulriksandberg/Projects/UnblockMe/UnblockMe/obj/Debug/netstandard2.0/UnblockMeSolver/Board.xaml.g.cs
+/Users/ulriksandberg/Projects/UnblockMe/UnblockMe/obj/Debug/netstandard2.0/PathFinder/PathFindingBoard.xaml.g.cs
+/Users/ulriksandberg/Projects/UnblockMe/UnblockMe/obj/Debug/netstandard2.0/PathFinder/Tile.xaml.g.cs
+/Users/ulriksandberg/Projects/UnblockMe/UnblockMe/obj/Debug/netstandard2.0/UnblockMeSolver/UnblockMeTIle.xaml.g.cs

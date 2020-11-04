@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="UnblockMe.PathFinder.PathFindingBoard">
+    <ContentPage.Content>
+        <StackLayout>
+            <ScrollView Orientation="Horizontal">
+                <StackLayout Padding="20,0,20,0" Spacing="10" Orientation="Horizontal" HorizontalOptions="Center">
+                    <Button Text="Create new Map" Clicked="Handle_ClickedCreateNewMap" />
+                    <Button Text="Solve" Clicked="Handle_ClickedSolve"/>
+                    <Button Text="Start Point" Clicked="Handle_ClickedStartPoint" />
+                    <Button Text="Goal" Clicked="Handle_ClickedGoal" />
+                    <Button Text="Obstacles" Clicked="Handle_ClickedObstacles" />
+                    <Button Text="Enemy" Clicked="Handle_ClickedEnemy" />
+                    <Button Text="ClearRoute" Clicked="Handle_ClearRoute" />
+                    <Button x:Name="ExploratoryOption" Text="Exploratory" Clicked="Handle_ClickedExploratory"/>
+                    <Button x:Name="BestSolutionOption" BackgroundColor="Black" Text="Best Solution" Clicked="Handle_ClickedBstSolution"/>
+                </StackLayout>
+            </ScrollView>
+            <StackLayout Padding="20,0,20,0" x:Name="HeuristicSection">
+                <Label x:Name="SliderValue" HorizontalOptions="Center" Text="HeuristicValue:1"/>
+                <Slider Maximum="10" Minimum="1"  ValueChanged="Handle_ValueChanged"/>
+            </StackLayout>
+            <StackLayout Padding="20,0,20,0" x:Name="AnimationTimeSection">
+                <Label x:Name="AnimationLabel" HorizontalOptions="Center" Text="AnimationTime:1"/>
+                <Slider Maximum="200" Minimum="1"  ValueChanged="Handle_ValueChanged_1"/>
+            </StackLayout>
+            <StackLayout x:Name="MapObjectSection" Orientation="Horizontal" HorizontalOptions="Center">
+                
+                <Label VerticalOptions="Center" x:Name="EditorItemLabel" Text="None:" />
+                <Frame x:Name="EditorItemFrame">
+                </Frame>
+            </StackLayout>
+            <ActivityIndicator x:Name="Solver" IsRunning="false" IsVisible="false" HorizontalOptions="Center" Color="Black"></ActivityIndicator>
+            <Grid x:Name="Container" BackgroundColor="Gray">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="1*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="1*"/>
+                </Grid.RowDefinitions>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

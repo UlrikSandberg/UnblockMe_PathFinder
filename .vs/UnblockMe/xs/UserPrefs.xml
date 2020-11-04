@@ -1,0 +1,53 @@
+﻿<Properties StartupConfiguration="{39E189CF-45CC-4548-8F5E-0CCACBA1FB23}|Default">
+  <MonoDevelop.Ide.ItemProperties.UnblockMe.Android FirstBuild="True" PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="UnblockMe/UnblockMeSolver/Solver.cs">
+    <Files>
+      <File FileName="UnblockMe/UnblockMeSolver/Board.xaml.cs" Line="133" Column="45" />
+      <File FileName="UnblockMe/UnblockMeSolver/Board.xaml" />
+      <File FileName="UnblockMe/PathFinder/PathFindingBoard.xaml" />
+      <File FileName="UnblockMe/PathFinder/PathFindingBoard.xaml.cs" />
+      <File FileName="UnblockMe/MainPage.xaml.cs" />
+      <File FileName="UnblockMe/MainPage.xaml" />
+      <File FileName="UnblockMe/PathFinder/TileModel.cs" Line="13" Column="35" />
+      <File FileName="UnblockMe/PathFinder/Tile.xaml" />
+      <File FileName="UnblockMe/PathFinder/Tile.xaml.cs" />
+      <File FileName="UnblockMe/FodyWeavers.xml" />
+      <File FileName="UnblockMe/PathFinder/PathFindingSolver.cs" Line="49" Column="24" />
+      <File FileName="UnblockMe/PriorityQue/MinQueComparable.cs" Line="7" Column="107" />
+      <File FileName="UnblockMe/PathFinder/Node.cs" Line="65" Column="32" />
+      <File FileName="UnblockMe/UnblockMeSolver/Node.cs" Line="1" Column="1" />
+      <File FileName="UnblockMe.iOS/Main.cs" />
+      <File FileName="UnblockMe/UnblockMeSolver/Element.cs" Line="99" Column="1" />
+      <File FileName="UnblockMe/UnblockMeSolver/UnblockMeTIle.xaml" />
+      <File FileName="UnblockMe/UnblockMeSolver/UnblockMeTIle.xaml.cs" />
+      <File FileName="UnblockMe/UnblockMeSolver/UnblockMeTileModel.cs" />
+      <File FileName="UnblockMe/PriorityQue/MinQue.cs" Line="15" Column="1" />
+      <File FileName="UnblockMe/UnblockMeSolver/Solver.cs" Line="161" Column="37" />
+      <File FileName="UnblockMe/UnblockMeSolver/ElementCoordinates.cs" Line="1" Column="1" />
+      <File FileName="UnblockMe/UnblockMeSolver/PossibleMoves.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="UnblockMe" expanded="True">
+            <Node name="UnblockMe" expanded="True">
+              <Node name="PathFinder" expanded="True" />
+              <Node name="PriorityQue" expanded="True" />
+              <Node name="UnblockMeSolver" expanded="True">
+                <Node name="Board.xaml" expanded="True" />
+                <Node name="Solver.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.UnblockMe.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.DB30B780-D323-48F4-919E-D00D0C0F1403" />
+</Properties>
